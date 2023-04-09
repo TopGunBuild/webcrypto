@@ -1,0 +1,52 @@
+{
+  "name": "topgun-webcrypto",
+  "version": "0.0.0",
+  "description": "An isomorphic WebCrypto for Javascript in Node and the browser",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "main": "dist/node.js",
+  "types": "./dist/node.d.ts",
+  "exports": {
+    "node": "./dist/node.js",
+    "default": "./dist/browser.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "prepublishOnly": "pnpm run build",
+    "test": "vitest run",
+    "semantic-release": "semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TopGunBuild/topgun-webcrypto.git"
+  },
+  "keywords": [
+    "isomoprhic",
+    "webcrypto",
+    "browser",
+    "node"
+  ],
+  "author": "Ivan Kalashnik",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TopGunBuild/topgun-webcrypto/issues"
+  },
+  "homepage": "https://github.com/TopGunBuild/topgun-webcrypto#readme",
+  "devDependencies": {
+    "@peculiar/webcrypto": "^1.4.3",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/commit-analyzer": "^9.0.2",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^8.0.7",
+    "@semantic-release/npm": "^10.0.3",
+    "@semantic-release/release-notes-generator": "^10.0.3",
+    "semantic-release": "^21.0.1",
+    "typescript": "4.9.4",
+    "vitest": "^0.30.0"
+  }
+}
