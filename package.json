@@ -37,8 +37,10 @@
     "url": "https://github.com/TopGunBuild/topgun-webcrypto/issues"
   },
   "homepage": "https://github.com/TopGunBuild/topgun-webcrypto#readme",
+  "dependencies": {
+    "@peculiar/webcrypto": "^1.4.3"
+  },
   "devDependencies": {
-    "@peculiar/webcrypto": "^1.4.3",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/commit-analyzer": "^9.0.2",
     "@semantic-release/git": "^10.0.1",
