@@ -1,7 +1,6 @@
-import { test, expectTypeOf } from 'vitest'
+import { test, expectTypeOf } from 'vitest';
 import WebCrypto from '../src/node';
 
-test('simple', () =>
-{
+test('simple', () => {
     expectTypeOf(WebCrypto).toBeObject();
 });
