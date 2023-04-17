@@ -1,9 +1,5 @@
 {
     "globalName": "topGunWebCrypto",
-    "splitting": true,
-    "sourcemap": false,
-    "clean": true,
-    "dts": true,
     "format": [
         "cjs",
         "esm",
@@ -11,10 +7,8 @@
     ],
     "minify": true,
     "bundle": true,
-    "skipNodeModulesBundle": true,
     "entry": {
         "browser": "src/browser.ts",
         "node": "src/node.ts"
-    },
-    "watch": false
+    }
 }
