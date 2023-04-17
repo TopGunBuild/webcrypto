@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/TopGunBuild/topgun-webcrypto/compare/v1.0.3...v1.0.4) (2023-04-17)
+
+
+### Bug Fixes
+
+* update `exports` path ([ab5b680](https://github.com/TopGunBuild/topgun-webcrypto/commit/ab5b680885fc064648bf0aa840cd70e8218ccb26))
+
 ## [1.0.3](https://github.com/TopGunBuild/topgun-webcrypto/compare/v1.0.2...v1.0.3) (2023-04-11)
 
 
