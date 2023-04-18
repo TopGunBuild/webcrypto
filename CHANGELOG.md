@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/TopGunBuild/topgun-webcrypto/compare/v1.0.4...v1.0.5) (2023-04-18)
+
+
+### Bug Fixes
+
+* update tsup config for types generation ([1bd997c](https://github.com/TopGunBuild/topgun-webcrypto/commit/1bd997c530471af92345ba2ba8b3fff384755112))
+
 ## [1.0.4](https://github.com/TopGunBuild/topgun-webcrypto/compare/v1.0.3...v1.0.4) (2023-04-17)
 
 
