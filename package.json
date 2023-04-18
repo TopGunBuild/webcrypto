@@ -8,7 +8,7 @@
     "files": [
         "dist"
     ],
-    "main": "./dist/node.js",
+    "types": "./dist/browser.d.ts",
     "module": "./dist/browser.mjs",
     "exports": {
         "require": "./dist/node.js",
