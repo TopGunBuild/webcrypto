@@ -1,6 +1,6 @@
 {
     "name": "@topgunbuild/webcrypto",
-    "version": "0.0.1",
+    "version": "1.0.7",
     "description": "An isomorphic WebCrypto for Javascript in Node and the browser",
     "publishConfig": {
         "access": "public"
