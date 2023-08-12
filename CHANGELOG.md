@@ -1,3 +1,17 @@
+## [1.0.7](https://github.com/TopGunBuild/webcrypto/compare/v1.0.6...v1.0.7) (2023-08-12)
+
+
+### Bug Fixes
+
+* set package name @topgunbuild/webcrypto ([8df2928](https://github.com/TopGunBuild/webcrypto/commit/8df2928cd769beae37c26268651689af71f26026))
+
+## [1.0.6](https://github.com/TopGunBuild/topgun-webcrypto/compare/v1.0.5...v1.0.6) (2023-08-12)
+
+
+### Bug Fixes
+
+* rename package 'topgun-webcrypto' -> @topgun/webcrypto ([50ba72e](https://github.com/TopGunBuild/topgun-webcrypto/commit/50ba72ed22787e48c774a8a034a788d743ec6050))
+
 ## [1.0.5](https://github.com/TopGunBuild/topgun-webcrypto/compare/v1.0.4...v1.0.5) (2023-04-18)
 
 

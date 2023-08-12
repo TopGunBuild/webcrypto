@@ -1,6 +1,6 @@
 {
-    "name": "@topgun/webcrypto",
-    "version": "0.0.1",
+    "name": "@topgunbuild/webcrypto",
+    "version": "1.0.7",
     "description": "An isomorphic WebCrypto for Javascript in Node and the browser",
     "publishConfig": {
         "access": "public"
@@ -25,7 +25,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/TopGunBuild/topgun-webcrypto.git"
+        "url": "git+https://github.com/TopGunBuild/webcrypto.git"
     },
     "keywords": [
         "isomoprhic",
@@ -36,9 +36,9 @@
     "author": "Ivan Kalashnik",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/TopGunBuild/topgun-webcrypto/issues"
+        "url": "https://github.com/TopGunBuild/webcrypto/issues"
     },
-    "homepage": "https://github.com/TopGunBuild/topgun-webcrypto#readme",
+    "homepage": "https://github.com/TopGunBuild/webcrypto#readme",
     "dependencies": {
         "@peculiar/webcrypto": "^1.4.3"
     },
