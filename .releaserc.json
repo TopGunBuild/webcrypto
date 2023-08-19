@@ -24,6 +24,7 @@
         ]
     ],
     "branches": [
-        "main"
+        "main",
+        "package-with-scope"
     ]
 }
