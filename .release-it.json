@@ -20,7 +20,8 @@
         ]
     },
     "npm": {
-        "publish": true
+        "publish": true,
+        "publishPath": "dist"
     },
     "hooks": {
         "before:init": [
