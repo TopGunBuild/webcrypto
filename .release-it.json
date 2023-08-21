@@ -1,6 +1,5 @@
 {
     "git": {
-        "requireBranch": "package-with-scope",
         "commitMessage": "chore: release v${version}",
         "tagName": "v${version}",
         "requireCommits": true,
