@@ -34,7 +34,7 @@
         "browser",
         "node"
     ],
-    "author": "Ivan Kalashnik",
+    "author": "ivan@topgun.build",
     "license": "MIT",
     "bugs": {
         "url": "https://github.com/TopGunBuild/topgun-webcrypto/issues"

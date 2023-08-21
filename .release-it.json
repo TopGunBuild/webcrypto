@@ -1,6 +1,7 @@
 {
     "git": {
-        "commitMessage": "chore: Release v${version}",
+        "requireBranch": "package-with-scope",
+        "commitMessage": "chore: release v${version}",
         "tagName": "v${version}",
         "requireCommits": true,
         "requireCleanWorkingDir": true
@@ -24,11 +25,8 @@
         "publishPath": "dist"
     },
     "hooks": {
-        "before:init": [
-            "pnpm lint",
-            "pnpm test"
-        ],
-        "after:bump": "pnpm build && pnpm tarball",
+        "before:init": ["git pull", "pnpm lint", "pnpm test"],
+        "after:bump": "pnpm build && pnpm tarball && npx auto-changelog -p",
         "after:release": "echo Successfully created a release v${version} for ${repo.repository}."
     }
 }
