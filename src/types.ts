@@ -108,24 +108,6 @@ interface AesKeyAlgorithm extends KeyAlgorithm {
     length: number;
 }
 
-// interface EcKeyAlgorithm extends KeyAlgorithm {
-//   namedCurve: NamedCurve;
-// }
-
-// interface HmacKeyAlgorithm extends KeyAlgorithm {
-//   hash: KeyAlgorithm;
-//   length: number;
-// }
-
-// interface RsaKeyAlgorithm extends KeyAlgorithm {
-//   modulusLength: number;
-//   publicExponent: Uint8Array;
-// }
-
-// interface RsaHashedKeyAlgorithm extends RsaKeyAlgorithm {
-//   hash: KeyAlgorithm;
-// }
-
 interface RsaHashedKeyGenParams extends RsaKeyGenParams {
     hash: HashAlgorithmIdentifier;
 }
